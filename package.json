@@ -4,7 +4,7 @@
   "description": "TracyAPI represent an API with todos/users routes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-server": "nodemon ./src/server.ts --watch"
   },
   "keywords": [],
   "author": "",
