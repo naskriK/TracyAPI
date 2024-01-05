@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import { Request, Response } from "express";
+import { TourSchema, TourSchemaType } from "./tour.schema";
 
 const prisma = new PrismaClient();
 
